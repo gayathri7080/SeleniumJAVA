@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pageobjectmodel.LoginTest&apos; to &apos;LoginPageUsingPageObjectModel_Test&apos;&#x0D;&#x0A;- Original project: &apos;TestNGPracticeID&apos;&#x0D;&#x0A;- Original element: &apos;pageobjectmodel.LoginTest&apos;&#x0D;&#x0A;- Renamed element: &apos;pageobjectmodel.LoginPageUsingPageObjectModel_Test&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LoginTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;pageobjectmodel{LoginTest.java[LoginTest" matchStrategy="1" name="LoginPageUsingPageObjectModel_Test" qualified="false" references="true" similarDeclarations="false" stamp="1721898797759" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,32 @@
+package javaPracticeUdemy;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WindowHandling88 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/loginpagePractise/");
+		driver.findElement(By.cssSelector(".blinkingText")).click();
+		Set<String> Hindows = driver.getWindowHandles();
+		Iterator<String> it = Hindows.iterator();
+		String parentId = it.next();
+		String childId = it.next();
+		driver.switchTo().window(childId);
+		System.out.println(driver.findElement(By.cssSelector(".im-para.red")).getText());
+		String emailID = driver.findElement(By.cssSelector(".im-para.red")).getText().split("with")[0].split("at")[1].trim();
+		System.out.println(emailID);
+		driver.switchTo().window(parentId);
+		driver.findElement(By.cssSelector("#username")).sendKeys(emailID);
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+package practice;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class PracticeFunctional {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver = new ChromeDriver();
+		String[] itemsNeeded = { "Potato", "Beetroot", "Carrot", "Beans" };
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/");
+		driver.manage().window().maximize();
+		List<WebElement> veggie = driver.findElements(By.cssSelector(".product-name"));
+		for (int i = 0; i < veggie.size(); i++) 
+		{
+			veggie.get(i).getText();
+		}
+		System.out.println(veggie);
+		
+		
+
+	}
+
+}

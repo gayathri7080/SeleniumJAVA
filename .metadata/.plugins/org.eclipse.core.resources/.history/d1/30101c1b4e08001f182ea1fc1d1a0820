@@ -1,0 +1,18 @@
+package javaPracticeUdemy;
+
+public class Java27 {
+
+	public static void main(String[] args) {
+		
+		String s1 = "  Chinny sai raj";
+		String[] splitedString = s1.split(" ");
+		System.out.println(splitedString.length);
+		System.out.println(splitedString[0]);
+		System.out.println(splitedString[1]);
+		System.out.println(splitedString[2]);
+		
+		System.out.println(s1.length());
+		System.out.println(s1.trim());
+	}
+
+}

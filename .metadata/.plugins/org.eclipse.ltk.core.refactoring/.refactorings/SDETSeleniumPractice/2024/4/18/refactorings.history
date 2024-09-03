@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;JavaPracticeUdemy&apos; to &apos;javaPracticeUdemy&apos;&#x0D;&#x0A;- Original project: &apos;SDETSeleniumPractice&apos;&#x0D;&#x0A;- Original element: &apos;SDETSeleniumPractice/src/test/java/JavaPracticeUdemy&apos;&#x0D;&#x0A;- Renamed element: &apos;SDETSeleniumPractice/src/test/java/javaPracticeUdemy&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;JavaPracticeUdemy&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;JavaPracticeUdemy" name="javaPracticeUdemy" qualified="false" references="true" stamp="1714482752959" textual="false" version="1.0"/>
+</session>

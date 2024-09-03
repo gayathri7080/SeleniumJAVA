@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test  name="groupingtest">
+	
+	<groups>
+		<run>
+			<include name="regression"/>
+	
+		</run>
+	</groups>
+	
+
+	
+    <classes>
+      <class name="groupingtest.Payments"/>
+     
+      <class name="groupingtest.SignUpTests"/>
+
+      <class name="groupingtest.LoginTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

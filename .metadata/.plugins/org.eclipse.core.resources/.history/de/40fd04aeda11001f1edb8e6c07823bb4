@@ -1,0 +1,33 @@
+package javaPracticeUdemy;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+
+public class SelectDropDown52 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+		WebElement StaticDropdown = driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
+		Select dropdown = new Select(StaticDropdown);
+		dropdown.selectByIndex(2);
+		System.out.println(dropdown.getFirstSelectedOption().getText());
+		dropdown.selectByValue("INR");
+		System.out.println(dropdown.getFirstSelectedOption().getText());
+		dropdown.selectByVisibleText("USD");
+		System.out.println(dropdown.getFirstSelectedOption().getText());
+		Assert.assertEquals(dropdown.getFirstSelectedOption().getText(), "USD");
+		
+		driver.findElement(By.cssSelector("#divpaxinfo")).click();
+		driver.findElement(By.cssSelector("#hrefIncAdt")).click();
+		driver.findElement(By.cssSelector("#hrefIncAdt")).click();
+		
+	}
+
+}

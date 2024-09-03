@@ -1,0 +1,10 @@
+package newtest_project_packagefortesting;
+
+public class Multiplicat_test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

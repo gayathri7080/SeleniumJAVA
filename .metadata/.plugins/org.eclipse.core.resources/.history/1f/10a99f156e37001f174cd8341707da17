@@ -1,0 +1,34 @@
+package practice;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DatePickerPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
+		driver.manage().window().maximize();
+		driver.findElement(By.cssSelector(".react-date-picker__inputGroup")).click();
+		String year = "2024";
+		String month = "May";
+		String date = "20";
+		
+		selectPastDate(driver,year,month,date);
+		System.out.println(month + " " + year);
+
+	}
+
+	public static void selectPastDate(WebDriver driver, String year, String month, String date)
+	{
+		
+		
+		driver.findElement(By.cssSelector(".react-calendar__navigation__label")).click();
+		String monthYear = driver.findElement(By.xpath("//span[@class='react-calendar__navigation__label__labelText react-calendar__navigation__label__labelText--from']")).getText();
+		System.out.println("mont hand yesr " + monthYear);
+	}
+
+}

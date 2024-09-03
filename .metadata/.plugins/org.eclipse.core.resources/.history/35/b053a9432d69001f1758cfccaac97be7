@@ -1,0 +1,32 @@
+18:39:30.124 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:39:30.132 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
+18:39:30.141 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:39:30.152 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:39:30.166 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:39:30.166 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
+18:39:30.179 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:39:30.195 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:39:30.196 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:39:30.197 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
+18:39:30.205 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:39:30.220 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:39:30.222 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:39:30.225 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
+18:39:30.231 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:39:30.242 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:39:30.244 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:39:30.245 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
+18:39:30.255 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:39:30.266 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:39:30.268 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:39:30.269 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
+18:39:30.280 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+18:39:30.308 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
+18:39:32.274 [main] INFO  testCases.TC003_LoginDDT {36} -  *** Ended TC_003_LoginDDT ***
+18:39:32.282 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
+18:39:34.403 [main] INFO  testCases.TC003_LoginDDT {36} -  *** Ended TC_003_LoginDDT ***
+18:39:34.410 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
+18:39:36.914 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
+18:39:38.928 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
+18:41:49.286 [main] INFO  testCases.TC003_LoginDDT {36} -  *** Ended TC_003_LoginDDT ***
+18:41:49.289 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***

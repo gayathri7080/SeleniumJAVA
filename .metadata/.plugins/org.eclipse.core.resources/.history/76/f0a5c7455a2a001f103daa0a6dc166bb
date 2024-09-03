@@ -1,0 +1,7 @@
+package superkeywordpractice;
+
+public class PS {
+	public void doTHis() {
+		System.out.println("I m here");
+	}
+}

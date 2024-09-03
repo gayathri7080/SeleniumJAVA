@@ -1,0 +1,48 @@
+package javaPracticeUdemy;
+
+import static org.testng.Assert.assertEquals;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+
+public class SelectDropDown52 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+		WebElement StaticDropdown = driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
+		Select dropdown = new Select(StaticDropdown);
+		dropdown.selectByIndex(2);
+		System.out.println(dropdown.getFirstSelectedOption().getText());
+		dropdown.selectByValue("INR");
+		System.out.println(dropdown.getFirstSelectedOption().getText());
+		dropdown.selectByVisibleText("USD");
+		System.out.println(dropdown.getFirstSelectedOption().getText());
+		Assert.assertEquals(dropdown.getFirstSelectedOption().getText(), "USD");
+		
+		driver.findElement(By.cssSelector("#divpaxinfo")).click();
+		Thread.sleep(2000);
+		for (int i = 0; i < 4; i++)
+		{
+			driver.findElement(By.id("hrefIncAdt")).click();
+		}
+	    System.out.println(driver.findElement(By.cssSelector("#divpaxinfo")).getText());
+		Assert.assertEquals(driver.findElement(By.cssSelector("#divpaxinfo")).getText(), "5 Adult");
+		
+		//dynamic dropdowns that means on clicking dropdown only we can see the xpath for the dropdown sleected items
+		driver.findElement(By.xpath("//input[@id='ctl00_mainContent_ddl_originStation1_CTXT']")).click();
+		driver.findElement(By.cssSelector("a[value='HYD']")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("ctl00_mainContent_ddl_destinationStation1_CTXT")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.cssSelector("a[value='VNS']")).click();
+		
+	}
+
+}

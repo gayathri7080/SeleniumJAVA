@@ -1,0 +1,34 @@
+package assertions;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class SoftAssertion {
+
+//	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		@Test
+		void  example()
+		{
+		SoftAssert sa = new SoftAssert();
+		Assert.assertEquals(1, 1);
+
+		Assert.assertEquals(2, 2);
+		System.out.println("Passes");
+	Assert.assertEquals(1, 3);
+		Assert.assertEquals(1, 1);
+
+		Assert.assertEquals(2, 2);
+		System.out.println("Passes1");
+		Assert.assertEquals(1, 3);
+		
+		
+		
+		
+		sa.assertAll();
+		
+}
+
+}

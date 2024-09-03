@@ -1,0 +1,23 @@
+package javaPracticeUdemy;
+
+public class MethodsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MethodsDemo d = new MethodsDemo();
+		d.method1();
+		d.intmethod();
+		
+	}
+
+	public void method1()
+	{
+		System.out.println("hello");
+	}
+	
+	public int intmethod()
+	{
+		return 480470;
+		
+	}
+}

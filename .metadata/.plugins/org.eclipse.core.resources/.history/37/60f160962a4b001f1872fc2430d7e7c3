@@ -1,0 +1,39 @@
+package coreJava;
+
+public class AustralianTraffic implements Interface_CentralTraffic{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		AustralianTraffic at = new AustralianTraffic();
+		at.grrnGo();
+		at.gmethod1();
+		int a2 = at.a;
+		System.out.println(a2);
+		
+	}
+
+	
+	public void gmethod1() {
+		// TODO Auto-generated method stub
+		System.out.println("gmethod1");
+	}
+	@Override
+	public void grrnGo() {
+		// TODO Auto-generated method stub
+		System.out.println("greengo imp");
+	}
+
+	@Override
+	public void redStop() {
+		// TODO Auto-generated method stub
+		System.out.println("redstop imp");
+	}
+
+	@Override
+	public void yellowFlash() {
+		// TODO Auto-generated method stub
+		System.out.println("yellowflash imp");
+	}
+
+}

@@ -1,0 +1,9 @@
+package test_Project;
+
+public class Star_example1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("hi");
+	}
+}

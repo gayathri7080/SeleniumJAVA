@@ -1,0 +1,6 @@
+19:27:32.039 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - clicked on my account
+19:27:34.881 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - validating expected msg
+19:27:34.887 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - Finished account Registration Test ......
+19:42:57.808 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - clicked on my account
+19:43:00.357 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - validating expected msg
+19:43:00.361 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - Finished account Registration Test ......

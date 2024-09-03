@@ -1,0 +1,38 @@
+package javaPracticeUdemy;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Brokenlinks110 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+		String url = driver.findElement(By.cssSelector("a[href*='brokenlink']")).getAttribute("href");
+		System.out.println(url);
+		
+		List<WebElement> links = driver.findElements(By.xpath("//li"));
+		for (int i = 0; i < links.size(); i++)
+		{
+			System.out.println(links.get(i).getText());
+		}
+		
+		// Finding all the available links on webpage
+		List<WebElement> links1 = driver.findElements(By.tagName("a"));
+
+
+		// Iterating each link and checking the response status
+		for (WebElement link : links1) {
+		String urls = link.getAttribute("href");
+		System.out.println(urls);
+		}
+
+	}
+
+}

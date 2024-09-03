@@ -1,0 +1,14 @@
+package test_Project;
+
+public class helloworld {
+
+	public static void main(String[] args) {
+		// Your First Program
+		 int num1 = 5, num2 = 10, sum;
+
+		 sum = num1 + num2;
+
+		 System.out.println("sum of "+ num1 +  "  " + num2 + " "   + "is" + " "  + sum);
+	
+	}
+}

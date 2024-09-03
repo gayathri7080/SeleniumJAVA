@@ -1,0 +1,32 @@
+package practice;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class airIndiaDatePicker {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.airindia.com/");
+		String date = "11";
+		String month = "February";
+		String year ="2025";
+		String day = "Momday";
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.findElement(By.cssSelector("#onetrust-accept-btn-handler")).click();
+		driver.findElement(By.xpath("//*[@class='btn bi bi-calendar3']")).click();
+		Thread.sleep(100);
+		driver.findElement(By.xpath("//div[@aria-label='"+day+", "+month+" "+date+", "+year+"']")).click();
+		
+		
+		
+
+	}
+
+}

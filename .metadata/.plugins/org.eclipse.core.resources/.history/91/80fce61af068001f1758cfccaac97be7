@@ -1,0 +1,10 @@
+19:54:17.568 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest {36} - clicked on my account
+19:54:20.086 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest {36} - set privacy policy test
+19:54:21.141 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest {36} - click button continue
+19:54:21.232 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest {36} - validating expected msg
+19:54:21.235 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest {36} - Finished account Registration Test ......
+20:18:36.165 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - clicked on my account
+20:18:38.234 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - set privacy policy test
+20:18:39.223 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - click button continue
+20:18:39.321 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - validating expected msg
+20:18:39.326 [main] INFO  testCases.TC001_AccountRegistrationTest {36} - Finished account Registration Test ......

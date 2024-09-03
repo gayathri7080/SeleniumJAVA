@@ -1,0 +1,10 @@
+package coreJava;
+
+public interface CentralTraffic
+{
+	int a =4;
+	public void grrnGo();
+	public void redStop();
+	public void yellowFlash();
+	
+}

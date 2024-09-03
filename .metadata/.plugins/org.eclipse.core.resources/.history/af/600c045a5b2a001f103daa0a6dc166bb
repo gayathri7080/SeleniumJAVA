@@ -1,0 +1,14 @@
+package superkeywordpractice;
+
+import org.testng.annotations.BeforeMethod;
+
+public class PS {
+	public void doTHis() {
+		System.out.println("I m here");
+	}
+	@BeforeMethod
+	public void beforeRun()
+	{
+		System.out.println("run me first");
+	}
+}

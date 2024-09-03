@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="groupingtest.Payments"/>
+      <class name="day44_SDETQA.day2"/>
+      <class name="pageobjectmodel.Login_Test"/>
+      <class name="day44_SDETQA.day1"/>
+      <class name="day44_SDETQA.DependencyMethods"/>
+      <class name="testannotationspractice.TestCase3_BeforeAfterTest"/>
+      <class name="groupingtest.SignUpTests"/>
+      <class name="pageobjectmodel.LoginPageUsingPageObjectModel_Test"/>
+      <class name="testannotationspractice.TestCase2_BeforeAfterClass"/>
+      <class name="testannotationspractice.TestCase1_BeforeAfterMethod"/>
+      <class name="assertions.SoftAssertion"/>
+      <class name="listerners.OrangeHRM"/>
+      <class name="groupingtest.LoginTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

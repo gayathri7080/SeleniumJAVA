@@ -1,0 +1,75 @@
+package practice;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DatePickerPractice {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.spicejet.com/");
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("(//div[@class='css-76zvg2 css-bfa6kz r-homxoj r-ubezar'])[1]")).click();
+	//	String monthYear = driver.findElement(By.xpath("(//div[@class='css-76zvg2 r-homxoj r-adyw6z r-1kfrs79'])[5]")).getText();
+	//	System.out.println(monthYear);
+		
+		
+	
+		String requiredMonthYear = "September 2024";
+		String requiredDate = "20";
+		
+		selectPastMY(driver,requiredMonthYear);
+		System.out.println(requiredMonthYear); 
+		selectDate(driver,requiredDate);
+		System.out.println(requiredDate);
+
+	
+	}
+	
+
+	public static void selectPastMY(WebDriver driver, String requiredMonthYear) throws InterruptedException
+	{
+		
+		while(true)
+		{
+		List<WebElement> allMonthYear= driver.findElements(By.xpath("(//div[@class='css-76zvg2 r-homxoj r-adyw6z r-1kfrs79'])"));
+		for (WebElement MY : allMonthYear) 
+		{
+			if (MY.getText().equals(requiredMonthYear))
+			{
+				break;
+			}
+			
+		}
+		Thread.sleep(1000);
+			driver.findElement(By.cssSelector(".r-1loqt21.r-u8s1d.r-11xbo3g.r-1v2oles")).click();
+		}
+		
+	
+	}
+	
+	public static void selectDate(WebDriver driver, String requiredDate) {
+		List<WebElement> allDates = driver.findElements(By.cssSelector(".css-1dbjc4n.r-1awozwy.r-1pi2tsx.r-1777fci.r-13qz1uu"));
+		for (WebElement dt : allDates) 
+		{
+			if (dt.getText().equals(requiredDate))
+			{
+				dt.click();
+				break;
+			}
+		}
+		
+	}
+	
+	
+
+
+}

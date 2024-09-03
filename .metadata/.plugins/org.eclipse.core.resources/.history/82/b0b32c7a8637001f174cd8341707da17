@@ -1,0 +1,36 @@
+package practice;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SpiceJetDatePicker {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.spicejet.com/");
+		String requiredDate = "20";
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("(//div[@class='css-76zvg2 css-bfa6kz r-homxoj r-ubezar'])[1]")).click();
+		
+		driver.findElement(By.xpath("(//div[@class='css-76zvg2 r-homxoj r-adyw6z r-1kfrs79'])[6]"));
+		List<WebElement> allDates = driver.findElements(By.cssSelector(".css-1dbjc4n.r-1awozwy.r-1pi2tsx.r-1777fci.r-13qz1uu"));
+		for (WebElement dt : allDates) 
+		{
+			if (dt.getText().equals(requiredDate))
+			{
+				dt.click();
+				break;
+			}
+		}
+
+	}
+
+}

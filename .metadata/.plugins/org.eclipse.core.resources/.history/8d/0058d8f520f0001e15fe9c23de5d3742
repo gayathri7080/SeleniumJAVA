@@ -1,0 +1,16 @@
+package test_Project;
+
+import java.util.Scanner;
+
+public class Sumexceeds_byadding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner myobj = new Scanner(System.in);
+		System.out.println("enter num");
+		int sumOfNumbs = myobj.nextInt();
+		System.out.println("enter num" + "is" +sumOfNumbs );
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+
+
+
+
+ <suite name="Suite">
+	<test  name="Test">
+    <classes>
+   
+      <class name="testannotationspractice.TestCase1_BeforeAfterMethod"/>
+      
+
+    </classes>
+  </test> <!-- Test -->
+  
+  	<test  name="Test1">
+	    <classes>
+		 <class name="testannotationspractice.TestCase1_BeforeAfterMethod"/>
+      <class name="testannotationspractice.TestCase2_BeforeAfterClass"/>
+   
+   
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   	<test  name="Test2">
+	    <classes>
+		 <class name="testannotationspractice.TestCase1_BeforeAfterMethod"/>
+      <class name="testannotationspractice.TestCase2_BeforeAfterClass"/>
+      <class name="testannotationspractice.TestCase3_BeforeAfterTest"/>"
+   
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+package test_Project;
+
+import java.util.Scanner;
+
+public class Strict_divisors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  Scanner s = new Scanner(System.in);
+	        int i = s.nextInt();
+	        for(int j=0;j<10;j++ )
+	        {
+	            int i = s.nextInt();
+	        	if(i%j==0);
+	        	System.out.println(i);
+	        }
+	        
+	}
+
+}

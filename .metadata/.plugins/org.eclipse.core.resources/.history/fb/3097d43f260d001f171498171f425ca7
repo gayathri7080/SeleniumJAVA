@@ -1,0 +1,42 @@
+package javaPracticeUdemy;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ParseString43 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ggoritya\\OneDrive - Capgemini\\Documents\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/locatorspractice/");
+		driver.findElement(By.xpath("//a[text()='Forgot your password?']")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.cssSelector("div button:nth-child(2)")).click();
+		String passwordText = driver.findElement(By.cssSelector("form p")).getText();
+		//Please use temporary password 'rahulshettyacademy' to Login.
+		String[] passwordarray = passwordText.split("'");
+		//passwordarray[0] = Please use temporary password ,
+		//passwordarray[1] = rahulshettyacademy' to Login.
+		String passwordarray1 = passwordarray[1].split("'")[0];
+		//passwordarray1[0] = rahulshettyacademy
+		//passwordarray1[1] = to Login.
+		
+		
+		
+		System.out.println(passwordarray1);
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
