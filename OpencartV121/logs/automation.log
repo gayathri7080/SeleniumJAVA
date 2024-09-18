@@ -1,34 +1,17 @@
-13:06:43.753 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-13:06:43.767 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:43.768 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-13:06:43.768 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
-13:06:43.776 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-13:06:43.787 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:43.788 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-13:06:43.789 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
-13:06:43.799 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-13:06:43.809 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:43.811 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-13:06:43.812 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
-13:06:43.819 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-13:06:43.829 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:43.830 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-13:06:43.831 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
-13:06:43.840 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-13:06:43.852 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:43.852 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-13:06:43.853 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
-13:06:43.861 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-13:06:43.874 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/_rels/workbook.xml.rels
-13:06:43.875 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-13:06:43.876 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection {36} - Parsing relationship: /_rels/.rels
-13:06:43.884 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory {36} - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
-13:06:43.908 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
-13:06:45.803 [main] INFO  testCases.TC003_LoginDDT {36} -  *** Ended TC_003_LoginDDT ***
-13:06:45.811 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
-13:06:48.249 [main] INFO  testCases.TC003_LoginDDT {36} -  *** Ended TC_003_LoginDDT ***
-13:06:48.256 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
-13:06:50.385 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
-13:06:52.757 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
-13:09:53.882 [main] INFO  testCases.TC003_LoginDDT {36} -  *** Ended TC_003_LoginDDT ***
-13:09:53.891 [main] INFO  testCases.TC003_LoginDDT {36} -  *** starting TC_003_LoginDDT ***
+15:04:14.471 [main] INFO  testCases.TC003_LoginDDT {36} - ***** Finished TC_003_LoginDDT ******
+15:04:14.515 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:07:14.533 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: abc123@gmail.com
+15:07:14.554 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:10:14.569 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: 
+17:08:28.374 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest {36} - clicked on my account
+17:08:30.245 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest {36} - set privacy policy test
+17:08:31.042 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest {36} - click button continue
+17:08:31.119 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest {36} - validating expected msg
+17:08:31.122 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest {36} - Finished account Registration Test ......
+17:08:51.759 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest {36} - clicked on my account
+17:08:56.584 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest {36} - set privacy policy test
+17:08:57.348 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest {36} - click button continue
+17:08:57.386 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest {36} - validating expected msg
+17:08:57.387 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest {36} - Finished account Registration Test ......
+17:10:03.859 [main] INFO  testCases.TC002_LoginTest {36} - Started the TC002_LoginTest class
+17:10:05.606 [main] INFO  testCases.TC002_LoginTest {36} - Finished the TC002_LoginTest class

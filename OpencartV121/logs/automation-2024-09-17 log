@@ -1,0 +1,51 @@
+18:56:26.902 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:56:28.542 [main] INFO  testCases.TC003_LoginDDT {36} - ***** My account exists TC_003_LoginDDT ******
+18:56:32.266 [main] INFO  testCases.TC003_LoginDDT {36} - ***** Finished TC_003_LoginDDT ******
+18:56:32.273 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:56:33.432 [main] INFO  testCases.TC003_LoginDDT {36} - ***** My account exists TC_003_LoginDDT ******
+18:56:36.837 [main] INFO  testCases.TC003_LoginDDT {36} - ***** Finished TC_003_LoginDDT ******
+18:56:36.843 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:56:38.170 [main] INFO  testCases.TC003_LoginDDT {36} - ***** My account exists TC_003_LoginDDT ******
+18:56:41.958 [main] INFO  testCases.TC003_LoginDDT {36} - ***** Finished TC_003_LoginDDT ******
+18:56:41.964 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:57:59.100 [main] INFO  testCases.TC003_LoginDDT {36} - ***** My account exists TC_003_LoginDDT ******
+18:58:02.105 [main] INFO  testCases.TC003_LoginDDT {36} - ***** Finished TC_003_LoginDDT ******
+18:58:02.110 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:58:02.121 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: abc123@gmail.com
+18:58:02.131 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:58:02.138 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: 
+15:15:05.523 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:18:05.582 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: pavanoltraining@gmail.com
+15:18:05.595 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:21:05.613 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: lakshmi@yahoo.com
+15:21:05.619 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:22:49.362 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: laksh@yahoo.com
+15:22:49.368 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:22:49.378 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: laks@yahoo.com
+15:22:49.383 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:22:49.390 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: abc123@gmail.com
+15:22:49.394 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:22:49.400 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: 
+18:42:48.423 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:45:48.494 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: pavanoltraining@gmail.com
+18:45:48.508 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:48:48.528 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: lakshmi@yahoo.com
+18:48:48.535 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:51:48.552 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: laksh@yahoo.com
+18:51:48.559 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:54:48.571 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: laks@yahoo.com
+18:54:48.579 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+18:57:48.590 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: abc123@gmail.com
+18:57:48.595 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+19:00:48.613 [main] ERROR testCases.TC003_LoginDDT {36} - Test case failed for email: 
+15:00:54.755 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:00:56.166 [main] INFO  testCases.TC003_LoginDDT {36} - ***** My account exists TC_003_LoginDDT ******
+15:00:59.720 [main] INFO  testCases.TC003_LoginDDT {36} - ***** Finished TC_003_LoginDDT ******
+15:00:59.727 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:01:01.025 [main] INFO  testCases.TC003_LoginDDT {36} - ***** My account exists TC_003_LoginDDT ******
+15:01:04.467 [main] INFO  testCases.TC003_LoginDDT {36} - ***** Finished TC_003_LoginDDT ******
+15:01:04.475 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:01:05.994 [main] INFO  testCases.TC003_LoginDDT {36} - ***** My account exists TC_003_LoginDDT ******
+15:01:09.547 [main] INFO  testCases.TC003_LoginDDT {36} - ***** Finished TC_003_LoginDDT ******
+15:01:09.551 [main] INFO  testCases.TC003_LoginDDT {36} - ***** starting TC_003_LoginDDT ******
+15:04:11.461 [main] INFO  testCases.TC003_LoginDDT {36} - ***** My account exists TC_003_LoginDDT ******

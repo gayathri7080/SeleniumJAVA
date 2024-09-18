@@ -20,7 +20,7 @@
 	<Loggers>
 
 
-<Root level="All"><!-- Here you can use multiple log levels All < Trace < Debug Info < Warn < Error <fatal < off  -->
+<Root level="Info"><!-- Here you can use multiple log levels All < Trace < Debug < Info < Warn < Error <fatal < off  -->
 <AppenderRef ref="Console"/>
 <AppenderRef ref="File"/>
 </Root>

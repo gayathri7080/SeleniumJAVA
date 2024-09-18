@@ -13,6 +13,8 @@ public class AustralianTraffic implements Interface_CentralTraffic{
 		at.redStop();
 		at.yellowFlash();
 		
+	//	AustralianTraffic at1 = new AustralianTraffic();
+	//	at1.gmethod1();
 	
 		
 	}

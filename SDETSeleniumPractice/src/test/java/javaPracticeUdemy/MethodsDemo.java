@@ -4,21 +4,26 @@ public class MethodsDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// void method
+		
 		MethodsDemo d = new MethodsDemo();
+		
+		// void method
 		d.method1();
+		
 		// return method
 		int num = d.intmethod();
 		System.out.println(num);
-		// static return method
+		
+		// static  method
 		String d1 = methodstatic();
 		System.out.println(d1);
+		
 		// static void method
 		method2();
 	}
 
 	public void method1() {
-		System.out.println("hello");
+		System.out.println("void only hello");
 	}
 
 	public int intmethod() {
@@ -27,10 +32,11 @@ public class MethodsDemo {
 	}
 
 	public static String methodstatic() {
-		return "chinny";
+		return "s"
+				+ "tatic  only chinny";
 	}
 
 	public static void method2() {
-		System.out.println("/static void method");
+		System.out.println("static void method");
 	}
 }

@@ -29,7 +29,7 @@ public class TC002_LoginTest extends BaseClass
 		
 		//MyAccount
 		MyAccountPage macc = new MyAccountPage(driver);
-		boolean targetPage = macc.isMyAccountExsists();
+		boolean targetPage = macc.isMyAccountPageExists();
 		
 		Assert.assertEquals(targetPage, true);
 	

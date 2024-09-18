@@ -17,6 +17,9 @@ public class DateTimeTest {
 		System.out.println(cal.getWeeksInWeekYear());
 		System.out.println(cal.DAY_OF_MONTH);
 		
+		
+		int cal1 = Calendar.FEBRUARY;
+		System.out.println(" feb mnth " + cal1);
 
 	}
 

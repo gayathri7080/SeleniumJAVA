@@ -5,7 +5,7 @@
     <classes>
       <class name="testCases.TC003_LoginDDT">
         <methods>
-          <include name="verify_LoginDDT"/>
+          <include name="verify_loginDDT"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testCases.TC003_LoginDDT -->
