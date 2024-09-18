@@ -26,7 +26,7 @@ public class Assg6_alert_variables {
 		driver.switchTo().alert().accept();
 		if (alerttext.contains(checktext)) 
 		{
-			System.out.println("alert msg success");
+			System.out.println("alert msg success!");
 		}
 		else 
 		{
